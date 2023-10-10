@@ -9,6 +9,5 @@ public class Main {
         HashSet<String> stringSet = new LinkedHashSet<>(Arrays.asList(strings));
         String result = String.join(", ", stringSet);
         System.out.println(result);
-
     }
 }
